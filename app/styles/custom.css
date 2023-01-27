@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply rounded-md border border-gray-50 bg-white shadow;
+  }
+
+  .placeholder {
+    @apply flex items-center justify-center border border-gray-200 bg-gray-100 p-6 text-gray-500;
+  }
+
+  .placeholder-highlighted {
+    @apply border-blue-300 bg-blue-100;
+  }
+}
